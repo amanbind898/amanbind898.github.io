@@ -1,0 +1,130 @@
+body {
+  font-family: "Maven Pro", sans-serif;
+  background-color: ffffff;
+}
+
+header {
+  background-color: rgb(102, 139, 159);
+}
+h2 {
+  font-family: "varela round", sans-serif;
+}
+
+/* NAVIGATION */
+nav {
+  width: auto;
+  margin: 0 auto;
+  background: #fff;
+  
+  box-shadow: 0px 5px 0px #9bdf76;
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #2f1010;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+nav ul li a:hover {
+  color: #555;
+}
+
+
+/* SHIFT- animation of nav bar*/
+nav.shift ul li a {
+  position:relative;
+  z-index: 1;
+}
+nav.shift ul li a:hover {
+  color: #4e4d0d;
+}
+nav.shift ul li a:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 1px;
+  content: '.';
+  color: transparent;
+  background: #f1f10f;
+  visibility: none;
+  opacity: 0;
+  z-index: -1;
+}
+nav.shift ul li a:hover:after {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+/* sections */
+#about {
+  padding-left: 10px;
+
+ 
+}
+
+#profile {
+  padding-left: 10px;
+  
+}
+#work {
+  padding-left: 10px;
+}
+
+footer {
+  padding-left: 10px;
+  width: auto;
+  height: 20px;
+  border-radius: 1%;
+  background: #96b137;
+}
+.container .box {
+  display : flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+
+.container .box .box-cell.box1 {
+   float: right;
+   width: 700px;;
+   border-radius: 10%;
+   border: #fff 10px solid;
+   
+    
+}
+.container .box .box-cell.box2 {
+ float: right;
+ width: auto;
+   box-sizing: border-box;
+   border-radius: 10%;
+  }
+
+/*** Smooth scrolling on the whole document*/
+ html {
+	scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
