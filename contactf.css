@@ -52,18 +52,5 @@
     background-color: #709871;
   }
   
-  @media screen and (max-width: 480px) {
-    .form-row {
-      justify-content: center;
-    }
-    
-    .form-group {
-      width: 100%;
-      margin-bottom: 10px;
-    }
-    
-    .form-group:last-of-type {
-      margin-bottom: 20px;
-    }
-  }
+
   

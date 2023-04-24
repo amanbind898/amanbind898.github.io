@@ -2,17 +2,25 @@ body {
   font-family: "Maven Pro", sans-serif;
   background-color: ffffff;
 }
-
+main{
+  width: auto;
+}
 header {
-  background-color: rgb(102, 139, 159);
+  width: max-content;
+  background-color: rgb(24, 165, 240);
 }
 h2 {
   font-family: "varela round", sans-serif;
 }
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
 
 /* NAVIGATION */
 nav {
-  width: auto;
+  width: max-content;
   margin: 0 auto;
   background: #fff;
   
@@ -99,7 +107,7 @@ footer {
 .container .box {
   display : flex;
   flex-direction: row;
-  width: 100%;
+  width:auto;
 }
 
 
