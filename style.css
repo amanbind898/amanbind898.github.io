@@ -2,25 +2,17 @@ body {
   font-family: "Maven Pro", sans-serif;
   background-color: ffffff;
 }
-main{
-  width: auto;
-}
+
 header {
-  width: max-content;
-  background-color: rgb(24, 165, 240);
+  background-color: rgb(102, 139, 159);
 }
 h2 {
   font-family: "varela round", sans-serif;
 }
-body {
-  margin: 0;
-  width: 100vw;
-  height: 100vh;
-}
 
 /* NAVIGATION */
 nav {
-  width: max-content;
+  width: auto;
   margin: 0 auto;
   background: #fff;
   
@@ -107,7 +99,7 @@ footer {
 .container .box {
   display : flex;
   flex-direction: row;
-  width:auto;
+  width: 100%;
 }
 
 
@@ -135,4 +127,87 @@ footer {
 	html {
 		scroll-behavior: auto;
 	}
+}
+/* styles for desktop screens */
+div {
+  max-width: 960px;
+  
+}
+
+/* styles for tablet screens */
+@media only screen and (max-width: 768px) {
+  div {
+    flex-direction: column;
+    max-width: 100%;
+  }
+}
+
+/* styles for mobile screens */
+@media only screen and (max-width: 480px) {
+  div {
+    font-size: 16px;
+    padding: 20px;
+  }
+}
+.animated {
+  position: relative;
+}
+
+.animated-info {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 5px;
+  min-width: 320px;
+  position: relative;
+}
+
+.animated-item {
+  color: #3b9c4dec;
+}
+
+.animated-item {
+  font-size: 38px;
+  line-height: inherit;
+  display: block;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  animation: BottomTotop 6s linear infinite 0s;
+}
+.animated-item:nth-child(2n + 2) {
+  animation-delay: 2s;
+}
+.animated-item:nth-child(3n + 3) {
+  animation-delay: 4s;
+}
+
+@keyframes BottomTotop {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  10% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  25% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  30% {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
