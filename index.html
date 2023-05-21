@@ -2,146 +2,70 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>My Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500;600;800&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aman's Portfolio</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="contactf.css">
-  <link rel="stylesheet" href="social.css">
   <script src="main.js"></script>
 </head>
 <body>
+  <div id="preloader">
+    <h1 id="message">Hello</h1>
+  </div>
+
   <header>
-      <nav class="shift">
-      
-        <ul>
-          <Li>  <h2>Aman Bind's Portfolio</h2></Li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#profile">skills</a></li>
-          <li><a href="#work">Achievements & Projects</a></li>
-          <li><a href="#contact">Contact </a></li>
-        </ul>
-      </nav>
+    <h1 style="margin-right: auto;">Aman Bind</h1>
+    <nav class="navMenu">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#achievements">Projects</a>
+      <a href="#contact">Contact</a>
+      <div class="dot"></div>
+    </nav>
   </header>
 
-  <main>
-    <section id="about">
-      <div class="container">
-        <h2>About Me</h2>
-        <h1 class="animated animated-text">
-          <span style="font-size: 44.8px;">Hi Guys, I'm &nbsp;</span>
-          <div class="animated-info">
-              <span class="animated-item">Aman Bind</span>
-              <span class="animated-item">Web Development learner</span>
-              <span class="animated-item">Student at IIITBH</span>
-          </div>
-          <p>Right Now Learning and Improving my Web Development Skills.
-          </p>
-      </div>
-    </section>
-<section id="profile">
-  <div class="container">
-    <h2>My skills</h2>
-    <p>Lorem ipsum, dolor sit amet
-       consectetur adipisicing elit. Architecto animi facilis eos
-        voluptates fugit atque impedit, similique officia fuga enim 
-      veritatis aliquid illum ipsa tempora quia non rem. Dolorem, 
-      temporibus?</p>
-  </div>
-</section>
-    <section id="work">
-      <div class="container">
-        <h2>My Work</h2>
-        <div class="work-item">
-          <img src="https://via.placeholder.com/300x200" alt="Project 1">
-          <h3>Project 1</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis cumque incidunt expedita reiciendis
-             architecto, rem sed accusamus nam alias nesciunt? Nulla odio illo vitae unde accusamus atque eveniet, veritatis, aut libero optio impedit magnam inventore reiciendis. Voluptatum, nostrum sequi 
-             ut natus maxime numquam laudantium dolorem optio architecto. Dolorum, iure ut?</p>
-        </div>
-        <div class="work-item">
-          <img src="https://via.placeholder.com/300x200" alt="Project 2">
-          <h3>Project 2</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis cumque incidunt expedita reiciendis
-             architecto, rem sed accusamus nam alias nesciunt? Nulla odio illo vitae unde accusamus atque eveniet, veritatis, aut libero optio impedit magnam inventore reiciendis. Voluptatum, nostrum sequi
-              ut natus maxime numquam laudantium dolorem optio architecto. Dolorum, iure ut?</p>
-        </div>
-        <div class="work-item">
-          <img src="https://via.placeholder.com/300x200" alt="Project 3">
-          <h3>Project 3</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis cumque incidunt expedita reiciendis 
-            architecto, rem sed accusamus nam alias nesciunt? Nulla odio illo vitae unde accusamus atque eveniet, veritatis, aut libero optio impedit magnam inventore reiciendis. Voluptatum, nostrum sequi
-             ut natus maxime numquam laudantium dolorem optio architecto. Dolorum, iure ut?</p>
-        </div>
-      </div>
+  <section id="about">
+    <div style="display: flex;">
+      <div style="width: 60%;">
+        <div class="rh">About me</div>
 
-    </section>
-
-  <div class="container">
-    <div class="box">
-    <div class="box-row">
-      <section id="contact">
-          <div class="box-cell box1">
-            <form action="" method="post">
-              <h2>Contact Us</h2>
-              <div class="form-row">
-                <div class="form-group">
-                  <label for="name">Name:</label>
-                  <input type="text" id="name" name="name" placeholder="Enter your name" required>
-                </div>
-                <div class="form-group">
-                  <label for="email">Email:</label>
-                  <input type="email" id="email" name="email" placeholder="Enter your email" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
-              </div>
-              <button type="submit" class="btn">Submit</button>
-            </form>
+          <div clas="abt">
+           <p style="font-size: 3vw;">Hi ,I am <span class="changing-text"></span></p>
+           <div class="resp_content"><p>Right Now Learning and Improving my Web Development Skills.
+          </p></div>
+            
           </div>
-        </section>
       </div>
-        
-      
-      
-      
-      <div class="box-row">
-          <div class="box-cell box2">
-            <form action="" method="post">
-              <h2>let's get connected.</h2>
-              <div class="social-media">
-                <a href="#" class="social-media__icon">
-                  <i class="fab fa-facebook-f"><img src="https://img.icons8.com/color/48/null/facebook-new.png"/></i>
-                </a>
-                <a href="#" class="social-media__icon">
-                  <i class="fab fa-twitter"><img src="https://img.icons8.com/color/48/null/instagram-new--v1.png"/></i>
-                </a>
-                <a href="#" class="social-media__icon">
-                  <i class="fab fa-instagram"><img src="https://img.icons8.com/color/48/null/twitter--v1.png"/></i>
-                </a>
-                <a href="#" class="social-media__icon">
-                  <i class="fab fa-linkedin"><img src="https://img.icons8.com/color/48/null/youtube-play.png"/></i>
-                </a>
-              </div>
-              
-              
-             
-          </div>
-        </div>
+      <div style="width: 40%;">
+        <img src="profile_img.png" alt="Profile Image" style="max-width: 100%;">
       </div>
     </div>
+  </section>
 
-      
-      
-    </div>
-  </main>
+  <section id="skills">
+    <div class="rh">My Skills</div>
+    <div class="resp_content"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nemo vel quis totam vitae illo doloremque? Sunt eligendi eum iste velit, unde expedita placeat ipsum ipsam dolor sint corporis? Eius.
+    </p></div>
+  </section>
+
+  <section id="achievements">
+    <div class="rh">achievements &amp; Projects</div>
+    
+    <div class="resp_content"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem similique totam sequi a eum consequuntur. Ex laboriosam quasi quia error minima dolor labore nostrum iste ab, rem quaerat quas deleniti.
+    </p></div>
+  </section>
+
   <footer>
-      <p>&copy; 2023 Aman Kumar Bind's Portfolio </p>
+    <div id="#contact" style="display: flex; justify-content: space-between;">
+      <div>
+        <h3>Contact</h3>
+        <p>Contact form goes here.</p>
+      </div>
+      <div>
+        <h3>Follow Me</h3>
+        <p>Social button icons go here.</p>
+      </div>
+    </div>
+    <p>&copy; 2023 Aman Bind's Portfolio. All rights reserved.</p>
   </footer>
 </body>
 </html>
