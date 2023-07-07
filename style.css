@@ -1,11 +1,11 @@
 
-
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap");
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Be Vietnam Pro";
 }
 
 #wrapper{
@@ -99,7 +99,7 @@ gap: 2em;
 }
 .role{
     color: #2718f3;
-    font-weight: 800px;
+    font-weight:bold;
 }
 .hero-section-description
 {
