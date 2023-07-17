@@ -64,6 +64,7 @@ textarea {
 	resize: none
 }
 
+
 .heading-primary {
 	letter-spacing: 3px;
 	text-align: center;
@@ -728,11 +729,13 @@ textarea {
 	}
 }
 
-.header {
+.navbar {
 	z-index: 1000;
 	background: #fff;
 	width: 100%;
 	position: fixed;
+	top: 0;
+	transition: top 0.3s;
 	box-shadow: 0 10px 100px #0000001a
 }
 
