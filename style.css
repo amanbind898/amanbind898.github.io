@@ -1080,3 +1080,39 @@ textarea {
     border-radius: 10px;
     border: 3px solid #ffffff;
   }
+
+
+  /* preloader */
+  #preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #f1f1f1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1100;
+  }
+  
+  .animated-item {
+	color: #3b9c4dec;
+  }
+  #message {
+	font-size: 48px;
+	font-weight: bold;
+  }
+  
+  .animated-item {
+	font-size: 38px;
+	line-height: inherit;
+	display: block;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	animation: BottomTotop 6s linear infinite 0s;
+  }
