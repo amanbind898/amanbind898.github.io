@@ -37,6 +37,7 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 };
 // preloader js
+
 document.addEventListener("DOMContentLoaded", function() {
   var languages = ["नमस्ते ", "নমস্কার", "வனக்கம்", "ನಮಸ್ಕಾರ ", "నమస్కారం"];
   var messageElement = document.getElementById("message");
@@ -55,4 +56,5 @@ document.addEventListener("DOMContentLoaded", function() {
       }, duration * 500);
     }
   }, duration * 500);
+
 });
