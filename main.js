@@ -50,11 +50,37 @@ document.addEventListener("DOMContentLoaded", function() {
 
     if (index >= languages.length) {
       clearInterval(interval);
-      setTimeout(function() {
-        // Hide the preloader after the specified duration
-        document.getElementById("preloader").style.display = "none";
-      }, duration * 500);
+
+      // Check if the user has visited before
+      if (hasVisitedBefore()) {
+        // If the user has visited before, hide the preloader immediately
+        hidePreloader();
+      } else {
+        // If it's the first visit, hide the preloader after the specified duration
+        setTimeout(function() {
+          hidePreloader();
+          // Set the flag indicating that the user has visited
+          setVisitedFlag();
+        }, duration * 500);
+      }
     }
   }, duration * 500);
-
 });
+
+// Function to check if the user has visited the website before
+function hasVisitedBefore() {
+  return localStorage.getItem('visited') === 'true';
+}
+
+// Function to set a flag indicating that the user has visited the website
+function setVisitedFlag() {
+  localStorage.setItem('visited', 'true');
+}
+
+// Function to hide the preloader
+function hidePreloader() {
+  var preloaderElement = document.getElementById("preloader");
+  if (preloaderElement) {
+    preloaderElement.style.display = "none";
+  }
+}

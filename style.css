@@ -373,19 +373,19 @@ textarea {
   
 /* end education */
 .about {
-	background: #fafafa
+	background: #fafafa;
 }
 
 .about__content {
 	grid-gap: 10rem;
 	grid-template-columns: 1fr 1fr;
-	display: grid
+	display: grid;
 }
 
 @media only screen and (width<=56.25em) {
 	.about__content {
 		grid-gap: 8rem;
-		grid-template-columns: 1fr
+		grid-template-columns: 1fr;
 	}
 }
 
@@ -435,17 +435,17 @@ textarea {
 }
 
 .projects__row:last-child {
-	margin-bottom: 0
+	margin-bottom: 0;
 }
 
 .projects__row-img-cont {
-	overflow: hidden
+	overflow: hidden;
 }
 
 .projects__row-img {
 	object-fit: cover;
 	width: 100%;
-	display: block
+	display: block;
 }
 
 .projects__row-content {
@@ -453,24 +453,24 @@ textarea {
 	justify-content: center;
 	align-items: flex-start;
 	padding: 2rem 0;
-	display: flex
+	display: flex;
 }
 
 @media only screen and (width<=56.25em) {
 	.projects__row-content {
-		align-items: center
+		align-items: center;
 	}
 }
 
 .projects__row-content-title {
 	margin-bottom: 2rem;
 	font-size: 2.8rem;
-	font-weight: 700
+	font-weight: 700;
 }
 
 @media only screen and (width<=37.5em) {
 	.projects__row-content-title {
-		font-size: 2.4rem
+		font-size: 2.4rem;
 	}
 }
 
@@ -479,12 +479,12 @@ textarea {
 	max-width: 60rem;
 	margin-bottom: 3rem;
 	font-size: 1.8rem;
-	line-height: 1.7
+	line-height: 1.7;
 }
 
 @media only screen and (width<=37.5em) {
 	.projects__row-content-desc {
-		font-size: 1.7rem
+		font-size: 1.7rem;
 	}
 }
 /* Define CSS variables (custom properties) */
@@ -510,7 +510,7 @@ textarea {
 	font-weight: 600;
 	border: 1px solid #ebebeb;
 	border-radius: 5px;
-	background-color: #5076ea83;
+	background-color: rgba(91, 109, 215, 0.635);;
 	margin-bottom: var(--field);
   }
   
@@ -530,7 +530,7 @@ textarea {
 	background-size: cover;
 	background-attachment: scroll, scroll;
 	background-origin: padding-box, padding-box;
-	background-clip: border-box, border-box
+	background-clip: border-box, border-box;
 }
 
 .contact-form-container {
