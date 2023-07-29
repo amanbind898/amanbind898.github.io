@@ -31,9 +31,9 @@
         <link href="style.css" rel="stylesheet">
       </head>
     <body>
-        <div id="preloader">
+        <!-- <div id="preloader">
             <h1 id="message">Hello</h1>
-          </div>
+          </div> -->
         <header class="navbar">
             <div class="header__content">
                 <div class="header__logo-container">
@@ -58,8 +58,8 @@
                         </li>
                     </ul>
                     <div class="header__main-ham-menu-cont">
-                        <img src="https://d33wubrfki0l68.cloudfront.net/2607a7cd85e449124d8effcaac428be4fc134bfa/86ff8/ham-menu.0ad1d7e0.0ad1d7e0.svg" alt="hamburger menu" class="header__main-ham-menu">
-                        <img src="https://d33wubrfki0l68.cloudfront.net/fc2ff6412f528b8e42d843ea95a9e743a66974a1/f5286/ham-menu-close.02924a77.02924a77.svg" alt="hamburger menu close" class="d-none header__main-ham-menu-close">
+                        <img src="https://www.svgrepo.com/show/444626/horizontal-menu.svg" alt="hamburger menu" class="header__main-ham-menu">
+                        <img src="https://www.svgrepo.com/show/522087/cross.svg" alt="hamburger menu close" class="d-none header__main-ham-menu-close">
                     </div>
                 </div>
             </div>
@@ -241,8 +241,17 @@
                     <span class="heading-sec__main heading-sec__main--lt">Contact</span>
                     <span class="heading-sec__sub heading-sec__sub--lt">Get in touch with me and let's start a conversation. I'm here to listen and collaborate with you. </span>
                 </h2>
-          
-                <a href="mailto:amanbind898@gmail.com" class="btn btn--bg">Contact</a>
+                
+                <form class="contact-form-container" action="https://docs.google.com/forms/d/e/1FAIpQLScakbAjW-Nk-kpQCS493lTNDHnvxW8089cefqEaKwezyDbpxA/formResponse" method="POST">
+
+                  <input type="text" placeholder="Your Name">
+                  <input type="email" placeholder="Your Email">
+                  <textarea placeholder="Your Message"></textarea>
+                  <button type="submit" class="contact__btn">Submit</button>
+                </form>
+              </div>
+              <!-- <a href="mailto:amanbind898@gmail.com" class="btn btn--bg">mail</a> -->
+               
             </div>
         </section>
        
