@@ -726,7 +726,7 @@ form button {
 	box-shadow: 0 10px 100px #0000001a
 }
 
-.header__content {
+.header-content {
 	justify-content: space-between;
 	align-items: center;
 	padding: 1rem 5rem;
@@ -734,12 +734,12 @@ form button {
 }
 
 @media only screen and (width<=56.25em) {
-	.header__content {
+	.header-content {
 		padding: 0 2rem
 	}
 }
 
-.header__logo-container {
+.header-logo-container {
 	cursor: pointer;
 	color: #333;
 	align-items: center;
@@ -747,11 +747,11 @@ form button {
 	display: flex
 }
 
-.header__logo-container:hover {
+.header-logo-container:hover {
 	color: #11009E
 }
 
-.header__logo-img-cont {
+.header-logo-img-cont {
 	background: #11009E;
 	border-radius: 50px;
 	width: 5rem;
@@ -761,14 +761,14 @@ form button {
 }
 
 @media only screen and (width<=56.25em) {
-	.header__logo-img-cont {
+	.header-logo-img-cont {
 		width: 4.5rem;
 		height: 4.5rem;
 		margin-right: 1.2rem
 	}
 }
 
-.header__logo-img {
+.header-logo-img {
 	object-fit: cover;
 	object-position: center;
 	width: 100%;
@@ -776,24 +776,24 @@ form button {
 	display: block
 }
 
-.header__logo-sub {
+.header-logo-sub {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 1.8rem;
 	font-weight: 700
 }
 
-.header__links {
+.header-links {
 	display: flex
 }
 
 @media only screen and (width<=37.5em) {
-	.header__links {
+	.header-links {
 		display: none
 	}
 }
 
-.header__link {
+.header-link {
 	color: #333;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -804,31 +804,31 @@ form button {
 	display: inline-block
 }
 
-.header__link:hover {
+.header-link:hover {
 	color: #11009E
 }
 
 @media only screen and (width<=56.25em) {
-	.header__link {
+	.header-link {
 		padding: 3rem 1.8rem;
 		font-size: 1.5rem
 	}
 }
 
-.header__main-ham-menu-cont {
+.header-main-ham-menu-cont {
 	width: 3rem;
 	padding: 2.2rem 0;
 	display: none
 }
 
 @media only screen and (width<=37.5em) {
-	.header__main-ham-menu-cont {
+	.header-main-ham-menu-cont {
 		display: block
 	}
 }
 
-.header__main-ham-menu,
-.header__main-ham-menu-close {
+.header-main-ham-menu,
+.header-main-ham-menu-close {
 	width: 100%
 }
 

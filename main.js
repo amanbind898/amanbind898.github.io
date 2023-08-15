@@ -1,7 +1,7 @@
-const e = document.querySelector(".header__main-ham-menu-cont")
+const e = document.querySelector(".header-main-ham-menu-cont")
   , n = document.querySelector(".header__sm-menu")
-  , s = document.querySelector(".header__main-ham-menu")
-  , t = document.querySelector(".header__main-ham-menu-close")
+  , s = document.querySelector(".header-main-ham-menu")
+  , t = document.querySelector(".header-main-ham-menu-close")
   , a = document.querySelectorAll(".header__sm-menu-link");
 e.addEventListener("click", ()=>{
     n.classList.contains("header__sm-menu--active") ? n.classList.remove("header__sm-menu--active") : n.classList.add("header__sm-menu--active"),
@@ -17,7 +17,7 @@ for (let e = 0; e < a.length; e++)
         t.classList.add("d-none")
     }
     );
-const c = document.querySelector(".header__logo-container");
+const c = document.querySelector(".header-logo-container");
 c.addEventListener("click", ()=>{
     location.href = "index.html"
 }
