@@ -36,7 +36,8 @@ body {
 	line-height: 1.5;
 	position: relative;
 	overflow-x: hidden;
-	overflow-y: scroll
+	overflow-y: scroll;
+	user-select: none;
 }
 
 a {
