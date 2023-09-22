@@ -204,12 +204,12 @@ textarea {
 
 @media only screen and (width<=37.5em) {
 	.heading-primary {
-		font-size: 4rem
+		font-size: 2.2rem
 	}
 
 	.fd {
 		text-transform: uppercase;
-		font-size: 4.5rem
+		font-size: 4rem
 	}
 }
 
@@ -445,7 +445,7 @@ textarea {
 @media only screen and (width<=37.5em) {
 	.home-hero__content {
 		margin: auto;
-		padding: 9rem 0 3rem;
+		padding: 14rem 0 9rem;
 		position: static;
 		transform: translate(0)
 	}
