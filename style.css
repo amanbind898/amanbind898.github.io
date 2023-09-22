@@ -97,6 +97,8 @@ html {
 		display: block;
 		font-size: 80px;
 		margin: 15px 0;
+		font-weight: 100;
+
 	}
 	.hero-section-heading {
 		max-height: 80px;
@@ -148,8 +150,8 @@ background-color: rebeccapurple;
 .crsv{
     font-family: "Shaloems";
     font-size: 80px;
-    font-weight: 600;
-    color: #eb346b;
+   
+    color: #4c34eb;
 }
 body {
 	box-sizing: border-box;
@@ -303,7 +305,7 @@ textarea {
     font-weight: 500;
 }
 .rolling{
-	color: #be6ff3;
+	color: #876ff3;
 	font-weight: bold;
 }
 /* end */
@@ -443,7 +445,7 @@ textarea {
 @media only screen and (width<=37.5em) {
 	.home-hero__content {
 		margin: auto;
-		padding: 19rem 0 13rem;
+		padding: 9rem 0 3rem;
 		position: static;
 		transform: translate(0)
 	}
