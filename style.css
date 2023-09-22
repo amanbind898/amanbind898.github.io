@@ -1081,7 +1081,7 @@ form button {
 }
 
 .mouse {
-	border: 2px solid #eee;
+	border: 2px solid #0f0e0e;
 	border-radius: 60px;
 	width: 25px;
 	height: 40px;
@@ -1092,7 +1092,7 @@ form button {
 .mouse:before {
 	content: "";
 	opacity: 1;
-	background-color: #eee;
+	background-color: #0c0909;
 	border-radius: 50%;
 	width: 5px;
 	height: 5px;
