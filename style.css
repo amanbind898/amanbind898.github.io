@@ -80,6 +80,29 @@ html {
 	text-align: center;
 	color: #121111;
 }
+
+@media only screen and (width<=75em) {
+	html {
+		font-size: 59%
+	}
+}
+
+@media only screen and (width<=56.25em) {
+	.home-hero__info h1 {
+		font-size: 30px;
+		margin-top: 30px;
+		line-height: 40px;
+	}
+	.crsv{
+		display: block;
+		font-size: 80px;
+		margin: 15px 0;
+	}
+}
+
+@media only screen and (width>=112.5em) {
+	
+}
 .blr {
     -webkit-filter: blur(25px) saturate(10);
     filter: blur(25px
