@@ -1,4 +1,7 @@
-
+@font-face {
+	src: url(./fonts/Hesterica.ttf);
+	font-family: 'Hesterica';
+}
 @font-face{
     src: url(./fonts/Gilroy-Black.ttf);
     font-family: 'GilroyBlack';
@@ -34,10 +37,6 @@
 @font-face{
     src: url(./fonts/Gilroy-Thin.ttf);
     font-family: 'GilroyThin';
-}
-@font-face{
-    src: url(./fonts/Shaloems.ttf);
-    font-family: 'Shaloems';
 }
 *,
 :after,
@@ -91,7 +90,7 @@ html {
 	.home-hero__info h1 {
 		font-size: 30px;
 		margin-top: 30px;
-		line-height: 40px;
+		line-height: 45px;
 	}
 	.crsv{
 		display: block;
@@ -148,9 +147,9 @@ background-color: rebeccapurple;
 	background-color: rgb(218, 83, 225);
 }
 .crsv{
-    font-family: "Shaloems";
+    font-family: "hesterica";
     font-size: 80px;
-   
+   font-weight: lighter;
     color: #4c34eb;
 }
 body {
