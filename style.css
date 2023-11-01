@@ -1108,6 +1108,16 @@ form button {
 	font-size: 1.6rem;
 	font-weight: 600
 }
+.skills__skillcp {
+	color: #ffffff;
+	background: rgba(38, 28, 11, 0.93);
+	border-radius: 5px;
+	margin-bottom: 1.5rem;
+	margin-right: 1.5rem;
+	padding: 1rem 2rem;
+	font-size: 1.6rem;
+	font-weight: 600
+}
 
 .mouse {
 	border: 2px solid #0f0e0e;
