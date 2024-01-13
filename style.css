@@ -921,7 +921,8 @@ form button {
 
 .header-link {
 	color: #333;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
+	font-family: gilroyregular;
 	letter-spacing: 1px;
 	padding: 2.2rem 3rem;
 	font-size: 1.6rem;
