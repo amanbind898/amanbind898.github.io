@@ -1102,7 +1102,16 @@ form button {
 	flex-wrap: wrap;
 	display: flex
 }
+.skillsimg img{
+	width: 600px;
 
+}
+@media screen and (max-width: 600px) {
+	.skillsimg img{
+		width: 100%;
+	}
+	
+}
 .skills__skill {
 	color: #131017;
 	background: rgba(91, 109, 215, 0.635);
