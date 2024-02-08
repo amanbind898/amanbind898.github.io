@@ -1103,7 +1103,7 @@ form button {
 	display: flex
 }
 .skillsimg img{
-	width: 600px;
+	width: 40vw;
 
 }
 @media screen and (max-width: 600px) {
