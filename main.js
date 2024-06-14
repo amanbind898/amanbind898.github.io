@@ -39,9 +39,9 @@ window.onscroll = function() {
 // preloader js
 
 document.addEventListener("DOMContentLoaded", function() {
-  var languages = ["नमस्ते ", "নমস্কার", "வனக்கம்", "ನಮಸ್ಕಾರ ", "నమస్కారం"];
+  var languages = ["hello","नमस्ते ", "নমস্কার", "வனக்கம்", "ನಮಸ್ಕಾರ ", "నమస్కారం"];
   var messageElement = document.getElementById("message");
-  var duration = languages.length / 6; // Duration in seconds
+  var duration = languages.length / 10; // Duration in seconds
 
   var index = 0;
   var interval = setInterval(function() {

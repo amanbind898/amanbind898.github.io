@@ -1132,6 +1132,28 @@ form button {
 	font-size: 1.6rem;
 	font-weight: 600
 }
+@media screen and (max-width: 600px) {
+    .skillsimg img {
+        width: 100%;
+    }
+
+    .codingprofile {
+        width: 100%; /* Ensures it takes full width on mobile */
+        text-align: center; /* Centers the content */
+        margin-bottom: 1.5rem; /* Adjust margin as needed */
+    }
+
+    .codingprofile img {
+        width: 80%; /* Adjust width of the image */
+        max-width: 300px; /* Set maximum width if needed */
+        height: auto; /* Maintains aspect ratio */
+    }
+
+    .codingprofile a {
+        pointer-events: none; /* Disables click events */
+    }
+}
+
 
 .mouse {
 	border: 2px solid #0f0e0e;
