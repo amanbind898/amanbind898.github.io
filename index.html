@@ -48,6 +48,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-dP8Plxx7I4VrT1gl20C9RnRbmO1H5fdyb70Erts+zX5EeQvXWto8+1w+AvU8OOrk7PczL7qP/qDb3ZgdKg3IVw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
         <link href="style.css" rel="stylesheet">
       </head>
     <body>
@@ -306,66 +308,72 @@
                 </div>
             </div>
         </section>
-        <section id="projects" class="projects sec-pad">
+   <section id="projects" class="projects sec-pad">
             <div class="main-container">
             
                 <h2 class="heading heading-sec heading-sec__mb-bg">
                     <span class="heading-sec__main">Projects</span>
                     <span class="heading-sec__sub">Explore a collection of my meticulously crafted web projects, showcasing my proficiency in modern front-end technologies. </span>
-                </h2>
-        
-                <div class="projects__row">
-                    <div class="projects__row-img-cont">
-                        <img src="images/interview.png" alt="AI Mock Interview Screenshot" class="projects__row-img" loading="lazy">
-                    </div>
-                    <div class="projects__row-content">
-                        <h3 class="projects__row-content-title">AI Mock Interview App</h3>
-                        <p class="projects__row-content-desc">
-                            AI-driven mock interview platform with real-time feedback, leveraging Next.js, Clerk authentication, and GenAI to enhance interview preparedness.
-                        </p>
-                        <a class='btn btn--med btn--theme-inv dynamicBgClr' href='https://mock-mateai.vercel.app/' target='_blank'>View</a>
-                    </div>
-                </div>
-                <div class="projects__row">
-                    <div class="projects__row-img-cont">
-                        <img src="images/skillup.png" alt="SkillUp Screenshot" class="projects__row-img" loading="lazy">
-                    </div>
-                    <div class="projects__row-content">
-                        <h3 class="projects__row-content-title">SkillUp: Skill Development Portal</h3>
-                        <p class="projects__row-content-desc">
-                            A structured learning platform supporting 100+ active learners, integrating real-time progress tracking and automation with web scraping.
-                        </p>
-                        <a class='btn btn--med btn--theme-inv dynamicBgClr' href='https://skill-development-portal.vercel.app/' target='_blank'>View</a>
-                    </div>
-                </div>
-                <div class="projects__row">
-                    <div class="projects__row-img-cont">
-                        <img src="images/Untitled design.png" alt="Software Screenshot" class="projects__row-img" loading="lazy">
-                    </div>
-                    <div class="projects__row-content">
-                        <h3 class="projects__row-content-title">JEE Main College predictor Tool</h3>
-                        <p class="projects__row-content-desc">A website built using HTML, CSS, and JavaScript to predict colleges based on JEE Main rank, offering a practical and user-friendly tool.</p>
-                        <a class='btn btn--med btn--theme-inv dynamicBgClr' href='https://college-nexus.onrender.com/college%20predictor/public/index.html' target='_blank'>View</a>
-                    </div>
-                </div>
-                <div class="projects__row">
-                    <div class="projects__row-img-cont">
-                        <img src="images/cpp.png" alt="C++ project" class="projects__row-img" loading="lazy">
-                    </div>
-                    <div class="projects__row-content">
-                        <h3 class="projects__row-content-title">Student Report Card Management System</h3>
-                        <p class="projects__row-content-desc">
-                            A console-based system developed in C++ with file handling and OOP principles, allowing CRUD operations for student report management.
-                        </p>
-                        <a class='btn btn--med btn--theme-inv dynamicBgClr' href='https://github.com/amanbind898/Student-Report-Card-Management-System' target='_blank'>View Code</a>
-                    </div>
-                </div>
-                
-                
-                    </div>
-                </div>
-            </div>
-        </section>
+    </h2>
+    <div class="project-card">
+        <img src="images/coderstat.png" alt="CoderSTat" class="project-image" loading="lazy" >
+        <div class="project-info" >
+            <h3 class="project-title">CoderStat : All in One coding portfolio tracker and tool</h3>
+            <p class="project-description">
+            Integrates Codeforces, LeetCode, and CodeChef stats with a sleek UI (Next.js, Tailwind CSS, Clerk Auth).
+         Real-time coding stats, personalized dashboards, and user-friendly interface for developers.Event tracker for upcoming contests and a 450-question DSA sheet.
+        </p>
+        <a href="https://coderstat.vercel.app/" class="project-btn" target="_blank">Live Demo</a>
+        </div>
+    </div>
+    <div class="project-card">
+      <img src="images/interview.png" alt="AI Mock Interview Screenshot" class="project-image" loading="lazy">
+      <div class="project-info">
+        <h3 class="project-title">AI Mock Interview App</h3>
+        <p class="project-description">
+          AI-driven mock interview platform with real-time feedback, leveraging Next.js, Clerk authentication, and GenAI to enhance interview preparedness.
+        </p>
+        <a href="https://mock-mateai.vercel.app/" class="project-btn" target="_blank">Live Demo</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="images/skillup.png" alt="SkillUp Screenshot" class="project-image" loading="lazy">
+      <div class="project-info">
+        <h3 class="project-title">SkillUp: Skill Development Portal</h3>
+        <p class="project-description">
+          A structured learning platform supporting 100+ active learners, integrating real-time progress tracking and automation with web scraping.
+        </p>
+        <a href="https://skill-development-portal.vercel.app/" class="project-btn" target="_blank">Live Demo</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="images/Untitled design.png" alt="JEE Main Tool" class="project-image" loading="lazy">
+      <div class="project-info">
+        <h3 class="project-title">JEE Main College Predictor Tool</h3>
+        <p class="project-description">
+          A website built using HTML, CSS, and JavaScript to predict colleges based on JEE Main rank, offering a practical and user-friendly tool.
+        </p>
+        <a href="https://college-nexus.onrender.com/college%20predictor/public/index.html" class="project-btn" target="_blank">Live Demo</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="images/cpp.png" alt="C++ project" class="project-image" loading="lazy">
+      <div class="project-info">
+        <h3 class="project-title">Student Report Card Management System</h3>
+        <p class="project-description">
+          A console-based system developed in C++ with file handling and OOP principles, allowing CRUD operations for student report management.
+        </p>
+        <a href="https://github.com/amanbind898/Student-Report-Card-Management-System" class="project-btn" target="_blank">View Code</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
         <section id="contact" class="contact dynamicBg sec-pad">
             <div class="main-container">
                 <h2 class="heading heading-sec heading-sec__mb-med">
